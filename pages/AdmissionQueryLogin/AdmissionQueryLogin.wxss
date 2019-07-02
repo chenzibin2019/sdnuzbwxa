@@ -1,0 +1,79 @@
+/* pages/AdmissionQueryLogin/AdmissionQueryLogin.wxss */
+.query_text_box {
+  margin-top: 274rpx;
+  margin-left: 50rpx;
+}
+
+.query_text {
+  font-family: PingFangSC-Regular;
+  font-size: 40rpx;
+  color: #061A32;
+  letter-spacing: 0.8rpx;
+}
+
+.query_hint {
+  opacity: 0.5;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #727D8A;
+  letter-spacing: 1rpx;
+  text-align: center;
+  line-height: 50rpx;
+  margin-top: 52rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+}
+
+.query_input_item_box {
+  margin-top: 44rpx;
+  margin-left: 104rpx;
+  margin-right: 104rpx;
+  height: 106rpx;
+  width: 542rpx;
+}
+
+.query_input_hint {
+  margin-top: 2rpx;
+  margin-left: 2rpx;
+  font-family: Helvetica;
+  font-size: 26rpx;
+  color: #54698D;
+  letter-spacing: 0;
+}
+
+.query_input_area {
+  background: #FFFFFF;
+  border: 2rpx solid #A8B7C7;
+  border-radius: 8rpx;
+  margin-top: 6rpx;
+  height: 64rpx;
+}
+
+.query_input_placehold {
+  font-family: Helvetica;
+  font-size: 26rpx;
+  color: #16325C;
+  letter-spacing: 0;
+  margin-left: 24rpx;
+  margin-top: 4rpx;
+  margin-bottom: 10rpx;
+}
+
+.query_submit_area {
+  background-image: linear-gradient(-129deg, #AF8EFF 6%, #398DFF 100%);
+  border-radius: 50rpx;
+  margin-left: 158rpx;
+  margin-right: 158rpx;
+  margin-top: 84rpx;
+  text-align: center;
+  height: 100rpx;
+}
+
+.query_submit_text {
+  font-family: PingFangSC-Semibold;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  letter-spacing: 2rpx;
+  text-align: center;
+  margin-top: 5rpx;
+}

@@ -1,0 +1,85 @@
+/* pages/CollegeView/CollegeView.wxss */
+.college_container {
+  background: #FFFFFF;
+  border-radius: 32rpx;
+  margin-left: 28rpx;
+  margin-right: 28rpx;
+  height: 800rpx;
+  margin-top: 90rpx;
+}
+
+.college_img {
+  margin-top: -84rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  height: 400rpx;
+  width: 640rpx;
+  opacity: 0.8;
+  float: left;
+  box-shadow: darkgrey 20rpx 20rpx 60rpx 10rpx;
+  border-radius: 7.36rpx;
+}
+
+.college_content {
+  width: 100%;
+}
+
+.college_label {
+  opacity: 0.5;
+  font-family: PingFangSC-Light;
+  font-size: 30rpx;
+  color: #727D8A;
+  letter-spacing: 1rpx;
+  line-height: 40rpx;
+  height: 40rpx;
+  width: 173px;
+  margin-left: 64rpx;
+  padding-top: 50rpx;
+  float: left;
+}
+
+.college_title {
+  font-family: PingFangSC-Semibold;
+  font-size: 40rpx;
+  color: #061A32;
+  letter-spacing: 1rpx;
+  text-align: center;
+  line-height: 50rpx;
+  float: left;
+  margin-top: 20rpx;
+  margin-left:64rpx;
+  width: 80%;
+}
+
+.college_desc {
+  font-family: PingFangSC-Semibold;
+  font-size: 26rpx;
+  color: #727D8A;
+  letter-spacing: 2rpx;
+  line-height: 40rpx;
+  float: left;
+  margin-left: 72rpx;
+  margin-right: 72rpx;
+  margin-top: 20rpx;
+}
+
+.college_view_button {
+  background-image: linear-gradient(-129deg, #AF8EFF 6%, #398DFF 100%);
+  border-radius: 41rpx;
+  text-align: center;
+  float: left;
+  margin-left: 120rpx;
+  margin-right: 120rpx;
+  height: 60rpx;
+  margin-top: 50rpx;
+  width: 65%;
+}
+
+.college_view_text {
+  font-family: PingFangSC-Semibold;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  letter-spacing: 2rpx;
+  text-align: center;
+  margin-top: 5rpx;
+}

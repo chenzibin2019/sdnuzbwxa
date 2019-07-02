@@ -1,0 +1,24 @@
+<view>
+  <view class="head_title">综合服务中心</view>
+  <view class="container search">
+    <navigator class="search-item" hidden="{{!runningInWeWork}}" url="/pages/WWork/Index">
+      <text>山师大本科招生新媒体</text>
+    </navigator>
+    <view class="search-item" bindtap="MakeCall">
+      <text>电话咨询</text>
+    </view>
+    <navigator class="search-item" url="/pages/AdmissionQueryLogin/AdmissionQueryLogin">
+      <text>录取查询</text>
+    </navigator>
+    <view class="search-item" hidden="true">
+      <cell plugid='7bd019b2e46de28ffad5a6ffc73e787c' buttonText='4' bind:completemessage="inqueryOk" bind:startmessage="inqueryStart" styleType="1" iconStyle="light" isMask="1" contactText="1" />
+    </view>
+    <navigator class="search-item" target="miniProgram" open-type="navigate" app-id="wx64bdcac40b627778">
+      <text>地图导航</text>
+    </navigator>
+    <button class="search-item" open-type="feedback" hidden="{{!okFeedBack}}">
+      <text>意见反馈</text>
+    </button>
+  </view>
+  <official-account></official-account>
+</view>    

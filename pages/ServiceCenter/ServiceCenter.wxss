@@ -1,0 +1,39 @@
+/* pages/ServiceCenter/ServiceCenter.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.search{
+  padding-top: 150rpx;
+}
+
+.search-item{
+  box-shadow: 3px 3px 15px RGBA(220, 220, 220, 0.49);
+  width: 315rpx;
+  padding:55rpx 0;
+  border-radius: 6rpx;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 57rpx;
+  border: 0px;
+}
+.search-item image{
+  width:36rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.search-item text{
+  padding-top: 6rpx;
+  color: #2EB7FF;
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/AdmissionAnnounce/AdmissionAnnounce",
+    "pages/CollegeViews/CollegeViews",
+    "pages/WebView/WebView",
+    "pages/AdmissionQueryLogin/AdmissionQueryLogin",
+    "pages/AdmissionQueryResult/AdmissionQueryResult",
+    "pages/ServiceCenter/ServiceCenter"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "showStatusBar": false,
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#717C89",
+    "selectedColor": "#2EB7FF",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/AdmissionAnnounce/AdmissionAnnounce",
+        "text": "招生公告",
+        "iconPath": "images/admission_announce.png",
+        "selectedIconPath": "images/admission_announce_active.png"
+      },
+      {
+        "pagePath": "pages/CollegeViews/CollegeViews",
+        "text": "院系纵览",
+        "iconPath": "images/college_views.png",
+        "selectedIconPath": "images/college_views_active.png"
+      },
+      {
+        "pagePath": "pages/ServiceCenter/ServiceCenter",
+        "text": "服务中心",
+        "iconPath": "images/service_center.png",
+        "selectedIconPath": "images/service_center_active.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx64bdcac40b627778"
+  ],
+  "plugins": {
+    "contactPlugin": {
+      "version": "1.0.12",
+      "provider": "wx104a1a20c3f81ec2"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,36 @@
+<view>
+  <view class="query_text_box">
+    <text class="query_text">录取查询结果</text>
+  </view>
+  <view class="query_result_item_box">
+    <view class="query_result_item_text">
+      <text class="query_result_item_key">姓名</text>
+      <text class="query_result_item_value">{{xm}}</text>
+    </view>
+  </view>
+  <view class="query_result_item_box">
+    <view class="query_result_item_text">
+      <text class="query_result_item_key">考生号</text>
+      <text class="query_result_item_value">{{examid}}</text>
+    </view>
+  </view>
+  <view class="query_result_item_box">
+    <view class="query_result_item_text">
+      <text class="query_result_item_key">学院</text>
+      <text class="query_result_item_value">{{admission_college}}</text>
+    </view>
+  </view>
+  <view class="query_result_item_box">
+    <view class="query_result_item_text">
+      <text class="query_result_item_key">专业</text>
+      <text class="query_result_item_value">{{admission_major}}</text>
+    </view>
+  </view>
+  <view class="query_share_area" bindtap="setShare">
+    <image src="/images/share.png" style="height: 142rpx; width: 460rpx;" />
+  </view>
+  <view class="query_return_area" bindtap="back">
+    <image src="/images/return.png" style="height: 132rpx; width: 460rpx;" />
+  </view>
+  <official-account></official-account>
+</view>

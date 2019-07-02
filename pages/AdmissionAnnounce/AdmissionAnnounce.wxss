@@ -1,0 +1,63 @@
+/* pages/AdmissionAnnounce/AdmissionAnnounce.wxss */
+.banner_area {
+  height: 200px;
+  margin: 15px;
+  border-radius: 30px;
+  box-shadow: darkgrey 10px 10px 30px 5px;
+}
+
+.cut_line {
+  opacity: 0.2;
+  border: 0 solid #061A32;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.items {
+  background: #FFFFFF;
+  box-shadow: 0 8px 20px 0 rgba(130,144,220,0.13);
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 210px;
+}
+
+.item_title {
+  padding-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-family: PingFangSC-Light;
+  font-size: 18px;
+  color: #061A32;
+  letter-spacing: 0.45px;
+  line-height: 25px;
+}
+
+.item_date_time {
+  padding-top: -12px;
+  font-family: PingFangSC-Light;
+  font-size: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
+  color: #727D8A;
+  letter-spacing: 0.42px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.item_desc {
+  opacity: 0.5;
+  font-family: PingFangSC-Light;
+  font-size: 13px;
+  color: #727D8A;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  margin-left: 20px;
+  margin-right: 13px;
+  max-height: 80px;
+}

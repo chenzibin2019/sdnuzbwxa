@@ -1,0 +1,22 @@
+<view>
+  <form bindsubmit="actQuery" id="queryForm">
+    <view class="query_text_box">
+      <text class="query_text">山东师范大学本科录取查询系统</text>
+    </view>
+    <view class="query_hint">
+      欢迎使用山东师范大学本科招生录取查询系统，你可以在此输入你的姓名和身份证后6位查询你的录取结果
+    </view>
+    <view class="query_input_item_box">
+      <view class="query_input_hint">姓名</view>
+      <input class="query_input_area" placeholder="请在此处输入你的姓名" placeholder-class="query_input_placehold" value="{{xm}}" name="xm" />
+    </view>
+    <view class="query_input_item_box">
+      <view class="query_input_hint">身份证后6位</view>
+      <input class="query_input_area" type="idcard" placeholder="请在此处输入你的身份证后6位" placeholder-class="query_input_placehold" value="{{sfzhl}}" name="sfzhl" />
+    </view>
+    <button class="query_submit_area" form-type="submit">
+      <text class="query_submit_text">点击查询</text>
+    </button>
+  </form>
+  <official-account></official-account>
+</view>

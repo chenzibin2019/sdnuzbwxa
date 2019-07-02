@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "cell": "plugin://contactPlugin/cell"
+  }
+}

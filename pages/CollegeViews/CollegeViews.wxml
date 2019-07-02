@@ -1,0 +1,21 @@
+<view class="fill">
+  <view class="head_title">院系纵览</view>
+  <swiper autoplay="true" interval="5000" duration="1000" class="fill">
+    <block wx:for="{{colleges}}" wx:for-index="index"  wx:key="{{item}}">
+      <swiper-item data-url="{{item.url}}" data-name="{{item.title}}" bindtap="viewCollege">
+      <view class="college_container">
+          <image src="{{item.cover}}" mode="aspectFill" class="college_img"/>  
+          <view class="college_content">
+            <view class="college_label">学院名称</view>
+            <view class="college_title">{{item.title}}</view>
+            <view class="college_desc">{{item.summary}}</view>
+          </view>
+          <view class="college_view_button">
+            <view class="college_view_text">点击查看</view>
+          </view>
+      </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <official-account></official-account>
+</view>

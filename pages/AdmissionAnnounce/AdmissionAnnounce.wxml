@@ -1,0 +1,22 @@
+<view>
+  <view class="head_title">{{pageTitle}}</view>
+  <view class="banner_area">
+    <swiper indicator-dots="{{imageList}}" class="fill" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{imageList}}" wx:key="{{item}}">
+        <swiper-item class="banner">
+          <image src="{{item.cover}}" style="width:100%; height:100%; border-radius: 5px;" mode="aspectFill" data-url="{{item.url}}" data-title="{{item.title}}" bindtap="viewBanner"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <official-account></official-account>
+  <!-- items -->
+  <block wx:for="{{articleList}}" wx:key="{{item}}">
+    <view class="items" bindtap="viewArticle" data-aid="{{item.aid}}" data-title="{{item.title}}">
+      <view class="item_title">{{item.title}}</view>
+      <view class="item_date_time">{{item.postTime}}</view>
+      <view class="item_desc">{{item.desc}}</view>
+    </view>
+  </block>
+  <!-- ./items -->
+</view>

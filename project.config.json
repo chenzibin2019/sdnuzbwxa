@@ -1,0 +1,85 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"uglifyFileName": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.3",
+	"appid": "wx162e7b427bd75bc3",
+	"projectname": "%E6%9C%AC%E7%A7%91%E6%8B%9B%E7%94%9F5",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "学院",
+					"pathName": "pages/CollegeViews/CollegeViews",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "学院",
+					"pathName": "pages/CollegeViews/CollegeViews",
+					"query": "uri=https%3a%2f%2fmp.weixin.qq.com%2fs%2f3_7QTPtDGElcQvbiXrIiTw"
+				},
+				{
+					"id": -1,
+					"name": "录取查询1",
+					"pathName": "pages/AdmissionQueryLogin/AdmissionQueryLogin",
+					"query": "uri=https%3a%2f%2fmp.weixin.qq.com%2fs%2f3_7QTPtDGElcQvbiXrIiTw"
+				},
+				{
+					"id": -1,
+					"name": "录取查询2",
+					"pathName": "pages/AdmissionQueryResult/AdmissionQueryResult",
+					"query": "uri=https%3a%2f%2fmp.weixin.qq.com%2fs%2f3_7QTPtDGElcQvbiXrIiTw"
+				},
+				{
+					"id": -1,
+					"name": "服务中心",
+					"pathName": "pages/ServiceCenter/ServiceCenter",
+					"query": "uri=https%3a%2f%2fmp.weixin.qq.com%2fs%2f3_7QTPtDGElcQvbiXrIiTw"
+				},
+				{
+					"id": -1,
+					"name": "专题页-艺术测试",
+					"pathName": "pages/AdmissionAnnounce/AdmissionAnnounce",
+					"query": "scene=spec?1",
+					"scene": "1011"
+				}
+			]
+		}
+	}
+}
